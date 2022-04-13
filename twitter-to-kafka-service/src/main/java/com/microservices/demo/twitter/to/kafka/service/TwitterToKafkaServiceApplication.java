@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfig;
+import com.microservices.demo.config.TwitterToKafkaServiceConfig;
 import com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner;
 
 @SpringBootApplication
