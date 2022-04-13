@@ -81,7 +81,7 @@ public class MockKafkaStreamRunner implements StreamRunner {
         final int minTweetLength = twitterToKafkaServiceConfig.getMockMinTweetLength();
         final int maxTweetLength = twitterToKafkaServiceConfig.getMockMaxTweetLength();
         long sleepTimeMs = twitterToKafkaServiceConfig.getMockSleepMs();
-        LOG.info("Starting mock filtering twitter streams for keywords {}", Arrays.toString(keywords));
+        LOG.info("Starting mock kafka filtering twitter streams for keywords {}", Arrays.toString(keywords));
         simulateTwitterStream(keywords, minTweetLength, maxTweetLength, sleepTimeMs);
     }
 
